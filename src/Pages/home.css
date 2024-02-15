@@ -1,0 +1,93 @@
+/* home-page */
+
+.home-page{
+    padding-top:8rem;    
+}
+
+.home-page img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+/* article-section */
+
+.home-page .article-section{
+    color: white;
+    padding: 2rem 20%;
+}
+.home-page .article-section h1{
+    font-size: 20px;
+}
+
+/* search-section */
+
+.home-page .search-section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 18%;
+    gap: 2rem;
+}
+
+.home-page .search-section input{
+    
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background: #292d33;
+    color: white;
+    outline: none;
+    font-weight: 300;
+}
+
+.home-page .search-section input::placeholder{
+    color: white;
+}
+
+.home-page .search-section button{
+    background: rgb(76, 137, 252);
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 0.1rem 2rem;
+    font-weight: 300;
+}
+
+/* result-section */
+
+.home-page .result-section{
+    margin: 0 10%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.home-page .result-section ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+}
+
+.home-page .result-section ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+    padding: 0.5rem 10%;
+}
+
+.home-page .result-section ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* widgets-hover */
+
+
+.home-page .search-section button:hover{
+    background-color: rgb(50, 106, 209);
+}
+
+.home-page .result-section ul li a:hover{
+    color: rgb(184, 174, 174);
+}

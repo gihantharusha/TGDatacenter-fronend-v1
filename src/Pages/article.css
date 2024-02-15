@@ -1,0 +1,10 @@
+/* article-page */
+
+.article-page{
+    padding: 7rem 9%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

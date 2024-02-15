@@ -1,0 +1,86 @@
+/* login */
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+/* login-page */
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+    padding-top:5.7rem;
+}
+
+/* title-section */
+
+.login-page .title-section{
+    background-color: #0A2039;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.login-page .title-section h1{
+    font-size: 25px;
+}
+
+/* second-section */
+
+.login-page .second-section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    color: white;
+    gap: 3rem;
+    text-align: center;
+}
+
+.login-page .second-section p{
+    text-align: center;
+    font-weight: 300;
+}
+.login-page .second-section p a{
+    color: white;
+    font-weight: 500;
+    
+}
+
+.login-page .second-section a button{
+    font-size: 20px;
+    color: white;
+    background: rgb(0, 132, 255);
+    border: none;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+}
+
+.login-page .second-section a button:hover{
+    background-color: rgb(17, 98, 173);;
+}
+
+/* input-section */
+
+.login-page .input-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.login-page .input-section input{
+    background: #00000000;
+    border: 1px solid rgba(255, 255, 255, 0.596);
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 20%;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+.login-page .input-section input::placeholder{
+    color: white;
+}
+
