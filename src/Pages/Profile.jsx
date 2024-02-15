@@ -12,7 +12,7 @@ const Profile = () => {
   const [data, setData] = useState();
 
   const addData = () => {
-    axios.post(`http://localhost:5000/addData?title=${title}&data=${data}`);
+    axios.post(`https://tgdatacenter-backend.onrender.com/addData?title=${title}&data=${data}`);
     alert("Uploaded your data");
   };
 

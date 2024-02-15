@@ -11,7 +11,7 @@ const Home = () => {
 
   const submit =  () => {
      axios
-      .get(`http://localhost:5000/findDataByTitle?title=${title}`)
+      .get(`https://tgdatacenter-backend.onrender.com/findDataByTitle?title=${title}`)
       .then((response) => {
         console.log(response.data)
         setRes(response.data)

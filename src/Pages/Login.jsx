@@ -13,7 +13,7 @@ const Login = () => {
 
   const submit = () => {
     axios
-      .get(`http://localhost:5000/findUserByName?name=${name}`)
+      .get(`https://tgdatacenter-backend.onrender.com/findUserByName?name=${name}`)
       .then((response) => {
         if (response.data.name === name) {
           if (response.data.password === pass) {

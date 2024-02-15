@@ -13,7 +13,7 @@ const SingUp = () => {
 
   const submit = () => {
     axios
-      .get(`http://localhost:5000/findUserByName?name=${name}`)
+      .get(`https://tgdatacenter-backend.onrender.com/findUserByName?name=${name}`)
       .then((response) => {
         if (response.data.name === name) {
           setDisplay("block");
@@ -24,7 +24,7 @@ const SingUp = () => {
             setPath("/singup");
           } else {
             axios
-              .post(`http://localhost:5000/addUser?name=${name}&pass=${pass}`)
+              .post(`https://tgdatacenter-backend.onrender.com/addUser?name=${name}&pass=${pass}`)
               .then((res) => {
                 setResponse(res.data);
                 
